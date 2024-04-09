@@ -69,7 +69,6 @@ ul {
     padding: 0;
 }
 
-<<<<<<< HEAD
 
 /*ESTILOS PRIMERA SECCION*/
 
@@ -81,8 +80,6 @@ ul {
     font-size: 60px;
     font-weight: 700;
 }
-
-.contenedor {}
 
 .container-left,
 .container-right {
@@ -130,7 +127,5 @@ ul {
 
 p {
     margin: 0;
+    font-display: initial;
 }
-=======
-dios es grande
->>>>>>> 830e6c34739cda5bcee5fcf39b70f4171f48b7b8
