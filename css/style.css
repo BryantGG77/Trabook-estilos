@@ -6,52 +6,127 @@
     font-size: 12px;
 
 }
-:root{
- --mainColor: #FA7436;
- --mainColorHover: #fd864e;
 
- --whiteHover:#dcdcdc;
+:root {
+    --mainColor: #FA7436;
+    --mainColorHover: #fd864e;
+
+    --whiteHover: #edecec;
 
 }
+
 body {
-    margin: 0 13%;
+    margin: 0 19%;
+    background-color: #fefcfb;
 }
-.botonEstilos{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+/* ESTILOS HEADER*/
+
+.botonEstilos {
+    margin: 0;
     font-size: 15px;
     border: none;
     padding: 4.5px 9px;
-    width: 120px;
-    height: 35px;
+    width: 170px;
+    height: 50px;
     font-weight: 500;
 }
+
 .btn-sing-up {
-    background-color:var(--mainColor);
+    background-color: var(--mainColor);
     color: white;
 }
+
 .btn-sing-up:hover {
     background-color: var(--mainColorHover);
 }
+
 .btn-login {
     background-color: white;
     color: var(--mainColor);
-    width: 70px;
+    width: 90px;
 }
+
 .btn-login:hover {
     background-color: var(--whiteHover);
 }
+
 a {
     text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
     color: black;
     padding: 0 12px;
-    font-weight: 500;
+    font-weight: 400;
 }
+
 .btn {
-    height: 40px;
-    width: 70px;
+    height: 80px;
+    width: 100px;
 }
-ul{
+
+ul {
     margin: 0;
-    padding: 0 ;
+    padding: 0;
+}
+
+
+/*ESTILOS PRIMERA SECCION*/
+
+.journey-color {
+    color: var(--mainColor);
+}
+
+.title-1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.contenedor {}
+
+.container-left,
+.container-right {
+    height: 600px;
+    width: 500px;
+    padding: 20px 0;
+
+}
+
+.text-secondary {
+    line-height: 35px;
+    font-weight: 400;
+}
+
+.btn-discover {
+    background-color: white;
+    border: 1px solid var(--mainColor);
+    color: var(--mainColor);
+    height: 60px;
+    width: 170px;
+    margin-top: 60px;
+}
+
+.floating-nav {
+
+    height: 120px;
+    width: 70%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.07);
+    background-color: #ffffff;
+}
+
+.bnt-explore-now {
+    height: 60px;
+    width: 160px;
+}
+
+.nav-floating-item,
+.text-nav {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+p {
+    margin: 0;
 }
