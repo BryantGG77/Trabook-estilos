@@ -10,17 +10,23 @@
 :root {
     --mainColor: #FA7436;
     --mainColorHover: #fd864e;
-
     --whiteHover: #edecec;
+    --colorSection: #6f6e6e;
+
+    --spacing-padding: 0px 19%;
 
 }
 
 body {
-    margin: 0 19%;
     background-color: #fefcfb;
 }
 
 /* ESTILOS HEADER*/
+
+.cajon-grande {
+    margin: var(--spacing-padding);
+    background-color: #fefcfb;
+}
 
 .botonEstilos {
     margin: 0;
@@ -72,6 +78,7 @@ ul {
 
 /*ESTILOS PRIMERA SECCION*/
 
+
 .journey-color {
     color: var(--mainColor);
 }
@@ -85,7 +92,7 @@ ul {
 .container-right {
     height: 600px;
     width: 500px;
-    padding: 20px 0;
+    padding-top: 20px;
 
 }
 
@@ -128,4 +135,67 @@ ul {
 p {
     margin: 0;
     font-display: initial;
+}
+
+
+/* SEGUNDA SECCION*/
+
+.contenedor-sect2 {
+    background-color: #f7f8fc;
+    margin-top: 76px;
+    padding-top: 80px;
+    height: 683px;
+}
+
+.container-text {
+    width: 530px;
+}
+
+.title-sect-2 {
+    font-size: 48px;
+    font-weight: 680;
+}
+
+.h2-to-do {
+    color: var(--mainColor);
+}
+
+.text-sect-2 {
+    color: var(--colorSection);
+    font-size: 20px;
+    padding: 10px 20px 30px 20px;
+    margin-bottom: 40px;
+}
+
+
+
+.column {
+    height: 100px;
+    width: 50px;
+}
+
+.card {
+    padding: 40px;
+    height: 270px;
+    width: 360px;
+    border: none;
+    -webkit-box-shadow: 0px 0px 29px -7px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 29px -7px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 29px -7px rgba(0, 0, 0, 0.1);
+}
+
+.container-cards {
+    margin: var(--spacing-padding);
+}
+
+.card-title {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+}
+
+.card-text {
+    color: var(--colorSection);
+    font-size: 16px;
+    font-weight: 500;
 }
