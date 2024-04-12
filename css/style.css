@@ -11,15 +11,12 @@
     --mainColor: #FA7436;
     --mainColorHover: #fd864e;
     --whiteHover: #edecec;
-<<<<<<< HEAD
     --colorSection: #6f6e6e;
-
     --spacing-padding: 0px 19%;
-
-=======
     --black:#000;
->>>>>>> def192a93f38eae6cc345ce2bc0feb518d0852b8
-}
+    --polla : "asdasdas";
+
+
 
 body {
     background-color: #fefcfb;
